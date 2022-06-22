@@ -145,7 +145,7 @@ if ($('.box-currencys-for-inputs_crypto').length){
 	
 };
 	function open_window_exchange(){
-		window.open('http://localhost:63342/exchange_new/exch/exchange/index.htm?_ijt=2lg6gmv3q2e8cas0n5ivrgumvp', '_blank')
+		window.open('./exch/exchange/index.htm', '_blank')
 	}
 	function click_post_currency_cash(){
 		$('.left-currency-input').removeClass('active-left-currency-input');
