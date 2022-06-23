@@ -94,3 +94,12 @@
         height: 3000px !important;
     }
 }
+
+@media all and (max-width: 692px){
+    .post-currency-for-input_cash{
+        font-size: 11px;
+    }
+    .post-currency-for-input span{
+        font-size: 11px !important;
+    }
+}
