@@ -22,3 +22,44 @@
         height: 2150px !important;
     }
 }
+
+@media all and (max-width: 961px){
+    .steps__form{
+        flex-direction: column;
+        justify-content: space-between !important;
+    }
+    .main-background:before {
+        height: 2200px !important;
+    }
+    .post-currency-for-input-mobile{
+        width: 64% !important;
+        padding: 6px;
+        border-radius: 4px;
+        cursor: pointer;
+        margin-top: 2px;
+        box-sizing: border-box;
+        transition: 0.3s;
+        display: block !important;
+        align-items: center;
+        justify-content: center;
+    }
+    .box-currencys-for-inputs_crypto{
+        align-items: center !important;
+        padding-left: 0!important;
+        padding-right: 0!important;
+    }
+    #crypto-title {
+        width: 54% !important;
+        font-size: 13px;
+        padding: 15px 0 0 0 !important;
+    }
+    .img-currency-box_crypto{
+        display: inline-block !important;
+    }
+    .right-steps__form {
+        width: 66% !important;
+    }
+    .rest_steps{
+        width: 27% !important;
+    }
+}

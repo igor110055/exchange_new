@@ -1377,3 +1377,12 @@ position: fixed;
 .thank_text{
     font-size: 18px;
 }
+.post-currency-for-input-mobile{
+    width: calc(99.333% - 6px);
+    padding: 6px;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 2px;
+    box-sizing: border-box;	 transition:0.3s; display: flex;
+    align-items: center;
+}
