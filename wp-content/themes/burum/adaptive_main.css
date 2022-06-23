@@ -1,0 +1,24 @@
+@media all and (max-width: 1221px) {
+    .main-background{
+        width: 100% !important;
+    }
+    .main-background:before {
+        width: 100% !important;
+    }
+}
+
+@media all and (max-width: 1133px){
+    .partners{
+        width: 90%;
+        max-width: 90%;
+    }
+    .footer-box{
+        width: 90% !important;
+    }
+}
+
+@media all and (max-width: 992px){
+    .main-background:before{
+        height: 2150px !important;
+    }
+}
