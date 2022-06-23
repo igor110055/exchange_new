@@ -63,3 +63,34 @@
         width: 27% !important;
     }
 }
+
+@media all and (max-width: 961px){
+    .main-background:before {
+        height: 2290px !important;
+    }
+}
+
+@media all and (max-width: 818px){
+    .steps__form{
+        flex-direction: column !important;
+    }
+    .rest_steps {
+        width: 40% !important;
+        display: block;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: stretch;
+        margin: 0 auto;
+    }
+    .right-steps__form {
+        display: block;
+        margin: 0 auto;
+    }
+    .title_cash_currency {
+        justify-content: space-around !important;
+    }
+    .main-background:before {
+        height: 3000px !important;
+    }
+}

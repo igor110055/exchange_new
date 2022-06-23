@@ -1158,6 +1158,7 @@ position: fixed;
 }
 #crypto-title{
     width: 45%;
+    white-space: nowrap;
 }
 
 .max_currency_cash{
@@ -1386,3 +1387,9 @@ position: fixed;
     box-sizing: border-box;	 transition:0.3s; display: flex;
     align-items: center;
 }
+.arrow{
+    white-space: nowrap;
+}
+/*.box-currencys-for-inputs_crypto{*/
+/*    white-space: nowrap;*/
+/*}*/
